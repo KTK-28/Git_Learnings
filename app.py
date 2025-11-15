@@ -9,6 +9,11 @@ unknown_path = "data/unanswered.csv"
 
 model = NLPModel(faq_path)
 
+def add(a):
+    return a-10
+
+add(5)
+
 st.set_page_config(page_title="EduBot Chatbot", layout="wide")
 st.title("🎓 EduBot – JIET Smart Campus Chatbot")
 
