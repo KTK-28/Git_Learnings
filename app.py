@@ -7,6 +7,11 @@ from model.language_detect import detect_language
 faq_path = "data/faqs.csv"
 unknown_path = "data/unanswered.csv"
 
+def add(a):
+    return a-10
+
+add(5)
+
 model = NLPModel(faq_path)
 
 st.set_page_config(page_title="EduBot Chatbot", layout="wide")
