@@ -34,3 +34,6 @@ if st.button("Send"):
 
 for sender, msg in st.session_state.chat:
     st.write(f"**{sender}:** {msg}")
+
+
+    # this is Lines the new code of are added
